@@ -501,3 +501,17 @@ Proyek ini dirancang untuk diselesaikan dalam 4 tahapan *milestone* praktikum ma
 
 ## 📄 Lisensi
 Lisensi Penggunaan Bahan Ajar Terbatas — PT Nusantara SuperMart Indonesia Course Materials. Dibuat untuk keperluan simulasi pendidikan rekayasa perangkat lunak dan arsitektur microservices.
+## Setup Database Domain Identity
+
+### Spesifikasi Database
+- **DBMS**: PostgreSQL 15 (Alpine)
+- **Port Host**: 5431
+- **Port Container**: 5432
+- **Database Name**: identity_db
+- **Username**: root
+- **Password**: secretpassword
+
+### Perintah Operasional Container
+- **Menyalakan Container**: `docker compose up -d`
+- **Mengecek Status/Healthcheck**: `docker compose ps`
+- **Mematikan Container**: `docker compose down`
